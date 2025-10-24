@@ -21,7 +21,7 @@ export default function CategoriaSection({ categoria }: { categoria: string }) {
   return (
     <section className='px-10 py-6 flex flex-col gap-6'>
       <div className='flex justify-between items-end'>
-        <h2 className='font-bold italic text-4xl'>{formatarCategoria(categoriaSelecionada)}</h2>
+        <h2 className='font-bold italic text-[#1F2937] text-4xl'>{formatarCategoria(categoriaSelecionada)}</h2>
         <Link to={`/categoria/${categoria}`} className='text-[#F59E0B] underline text-xl'>
           Ver tudo
         </Link>

@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import CategoriaSection from "../../components/CategoriaSection/CategoriaSection";
+import Header from "../../components/Header/Header";
 
 export default function Home() {
   useEffect(() => {
@@ -7,6 +8,7 @@ export default function Home() {
   });
   return (
     <>
+      <Header titulo='Sabores do Front' />
       <div className='relative h-96 flex items-center justify-center'>
         <div className='absolute inset-0 bg-black opacity-30' />
         <h1 className='absolute font-light italic text-8xl text-[#F3F4F6] select-none'>Receitas à Milaneza</h1>

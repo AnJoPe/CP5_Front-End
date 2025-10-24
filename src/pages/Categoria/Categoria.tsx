@@ -34,9 +34,9 @@ export default function Categoria() {
             e.preventDefault();
             voltar(-1);
           }}>
-          <img src='/icons/chevron-left-branco.svg' className='absolute left-10 top-10' />
+          <img src='/icons/chevron-left-branco.svg' className='absolute left-10 top-8 h-8' />
         </Link>
-        <h2 className='text-6xl text-[#F3F4F6] font-bold'>{formatarCategoria(categoriaSelecionada)}</h2>
+        <h2 className='text-5xl text-[#F3F4F6] font-bold'>{formatarCategoria(categoriaSelecionada)}</h2>
       </div>
       <div className='px-13 py-12 grid grid-cols-6 gap-8'>
         {receitas_categoria.map((receita) => (

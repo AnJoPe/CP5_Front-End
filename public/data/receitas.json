@@ -271,6 +271,58 @@
     "src": "/receitas/hamburguer_caseiro.png"
   },
   {
+    "link": "feijoada",
+    "categoria": "pratos_principais",
+    "nome": "Feijoada",
+    "tempo": "3h",
+    "ingredientes": [
+      "1 kg de feijão preto",
+      "500 g de carne seca dessalgada",
+      "250 g de costelinha de porco salgada",
+      "200 g de paio (linguiça defumada)",
+      "200 g de linguiça calabresa defumada",
+      "1 cebola grande picada",
+      "4 dentes de alho amassados",
+      "Folhas de louro",
+      "Sal e pimenta do reino a gosto",
+      "Óleo para refogar",
+      "Acompanhamentos: Arroz branco, Couve Refogada, Farofa, Vinagrete e Fatias de Laranja"
+    ],
+    "modoPreparo": [
+      "Deixe o feijão e as carnes salgadas de molho em água por pelo menos 12 horas, trocando a água algumas vezes.",
+      "Cozinhe o feijão com as carnes salgadas e as folhas de louro em panela de pressão por cerca de 40 minutos.",
+      "Em outra panela, refogue a cebola e o alho no óleo. Adicione o paio e a calabresa fatiados, e frite por alguns minutos.",
+      "Junte o refogado ao feijão, adicione sal e pimenta a gosto e cozinhe em fogo brando por mais 20 minutos ou até engrossar o caldo.",
+      "Sirva quente com os acompanhamentos."
+    ],
+    "src": "/receitas/feijoada.png"
+  },
+  {
+    "link": "lasanha_a_bolonhesa",
+    "categoria": "pratos_principais",
+    "nome": "Lasanha à Bolonhesa",
+    "tempo": "1h 30min",
+    "ingredientes": [
+      "500 g de massa para lasanha (seca ou fresca)",
+      "500 g de carne moída",
+      "1 cebola picada e 2 dentes de alho amassados",
+      "800 g de molho de tomate (passata)",
+      "500 g de queijo mussarela fatiado",
+      "250 g de presunto fatiado (opcional)",
+      "Para o Molho Branco: 50g de manteiga, 50g de farinha de trigo, 500ml de leite, noz-moscada e sal",
+      "Queijo parmesão ralado para finalizar",
+      "Salsinha ou Manjericão fresco (para decoração)"
+    ],
+    "modoPreparo": [
+      "Prepare o Molho à Bolonhesa: Refogue a cebola e o alho. Adicione a carne moída e frite até dourar. Junte o molho de tomate, sal e cozinhe por 15 minutos.",
+      "Prepare o Molho Branco (Béchamel): Derreta a manteiga, adicione a farinha e mexa rapidamente. Acrescente o leite quente aos poucos, mexendo até engrossar. Tempere com sal e noz-moscada.",
+      "Montagem: Em um refratário, intercale camadas na seguinte ordem: molho bolonhesa, massa, presunto, mussarela, molho branco. Repita as camadas.",
+      "Finalize com uma camada de molho branco e polvilhe queijo parmesão ralado por cima.",
+      "Leve ao forno pré-aquecido a 200 °C por 30 a 40 minutos ou até gratinar. Decore com a folha de salsinha/manjericão antes de servir."
+    ],
+    "src": "/receitas/lasanha_a_bolonhesa.png"
+  },
+  {
     "link": "pudim_de_leite",
     "categoria": "sobremesas",
     "nome": "Pudim de Leite",
@@ -545,5 +597,25 @@
       "Sirva em copos com bastante gelo e decore com rodelas de limão."
     ],
     "src": "/receitas/pink_lemonade.png"
+  },
+  {
+    "link": "limonada_suica",
+    "categoria": "bebidas",
+    "nome": "Limonada Suíça",
+    "tempo": "5min",
+    "ingredientes": [
+      "3 limões Taiti (com casca)",
+      "2 copos (300ml) de água gelada",
+      "2 doses de leite condensado (ou a gosto)",
+      "Gelo a gosto",
+      "Fatia de Limão (para decorar o copo)"
+    ],
+    "modoPreparo": [
+      "Lave bem os limões e corte-os em quatro partes, removendo a parte branca central (para não amargar).",
+      "No liquidificador, coloque os limões, a água gelada e o leite condensado. Bata por apenas 15 segundos.",
+      "Coe a mistura em uma jarra, apertando o bagaço dos limões com uma colher para extrair todo o suco.",
+      "Sirva imediatamente em copos com bastante gelo e decore a borda com uma fatia de limão."
+    ],
+    "src": "/receitas/limonada_suica.png"
   }
 ]
