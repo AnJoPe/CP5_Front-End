@@ -48,10 +48,10 @@ export default function Cadastro() {
           e.preventDefault();
           voltar(-1);
         }}>
-        <img src='/icons/chevron-left-branco.svg' className='absolute left-10 top-7 z-20 h-8' />
+        <img src='/icons/chevron-left-branco.svg' className='absolute left-4 md:left-6 lg:left-10 top-6 md:top-7 lg:h-8' />
       </Link>
       <div className='flex flex-col items-center py-12 gap-6'>
-        <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col gap-5 w-[40%]'>
+        <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col gap-5 w-[90%] md:w-[80%] lg:w-[60%] xl:w-[45%]'>
           <div className='flex flex-col'>
             <label htmlFor='nome' className='text-xl text-[#1F2937] font-semibold'>
               Nome
@@ -86,7 +86,7 @@ export default function Cadastro() {
             />
             {errors.email && <span style={{ fontSize: "1.15rem", color: "#EF4444" }}>{errors.email.message}</span>}
           </div>
-          <div className='flex w-full justify-between'>
+          <div className='flex flex-col md:flex-row w-full justify-between'>
             <div className='flex flex-col w-full'>
               <label htmlFor='senha' className='text-xl text-[#1F2937] font-semibold'>
                 Senha
@@ -126,9 +126,9 @@ export default function Cadastro() {
           </div>
 
           <div>
-            <label className='text-lg text-[#4B5563] font-medium'>
+            <label className='md:text-lg text-[#4B5563] font-medium'>
               <input type='checkbox' className='mx-2 accent-[#F59E0B]' />
-              Receber emails procionais (opcional)
+              Receber emails promocionais (opcional)
             </label>
           </div>
           <button type='submit' className='bg-[#F59E0B] hover:bg-[#FBBF24] focus:bg-[#D97706] px-3 py-1.5 rounded-lg text-[#F3F4F4] text-lg font-medium'>

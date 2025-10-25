@@ -21,7 +21,7 @@ const requisitosSenha = [
 
 export default function Login() {
   const voltar = useNavigate();
-  
+
   useEffect(() => {
     document.title = "Login";
   });
@@ -48,10 +48,10 @@ export default function Login() {
           e.preventDefault();
           voltar(-1);
         }}>
-        <img src='/icons/chevron-left-branco.svg' className='absolute left-10 top-7 z-20 h-8' />
+        <img src='/icons/chevron-left-branco.svg' className='absolute left-4 md:left-6 lg:left-10 top-6 md:top-7 lg:h-8' />
       </Link>
       <div className='flex flex-col items-center py-12 gap-6'>
-        <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col gap-5 w-[40%]'>
+        <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col gap-5 w-[90%] md:w-[80%] lg:w-[60%] xl:w-[45%]'>
           <div className='flex flex-col'>
             <label htmlFor='email' className='text-xl text-[#1F2937] font-semibold'>
               Email

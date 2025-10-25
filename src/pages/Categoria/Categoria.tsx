@@ -34,11 +34,11 @@ export default function Categoria() {
             e.preventDefault();
             voltar(-1);
           }}>
-          <img src='/icons/chevron-left-branco.svg' className='absolute left-10 top-8 h-8' />
+          <img src='/icons/chevron-left-branco.svg' className='absolute left-5 md:left-8 lg:left-10 top-8 lg:h-8' />
         </Link>
-        <h2 className='text-5xl text-[#F3F4F6] font-bold'>{formatarCategoria(categoriaSelecionada)}</h2>
+        <h2 className='text-3xl md:text-4xl xl:text-5xl text-[#F3F4F6] font-bold'>{formatarCategoria(categoriaSelecionada)}</h2>
       </div>
-      <div className='px-13 py-12 grid grid-cols-6 gap-8'>
+      <div className='px-8 lg:px-13 py-12 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-8'>
         {receitas_categoria.map((receita) => (
           <Card key={receita.link} src={receita.src} nome={receita.nome} tempo={receita.tempo} link={receita.link} />
         ))}
