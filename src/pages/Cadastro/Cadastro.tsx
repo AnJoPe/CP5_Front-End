@@ -74,6 +74,7 @@ export default function Cadastro() {
             <input
               id='email'
               type='email'
+              autoComplete='email'
               placeholder='seuemail@exemplo.com.br'
               {...register("email", {
                 required: "O email é obrigatório!",
@@ -94,6 +95,7 @@ export default function Cadastro() {
               <input
                 id='senha'
                 type='password'
+                autoComplete='new-password'
                 {...register("senha", {
                   required: "A senha é obrigatória!",
                 })}
@@ -115,6 +117,7 @@ export default function Cadastro() {
               <input
                 id='confirmar'
                 type='password'
+                autoComplete='new-password'
                 {...register("confSenha", {
                   required: "A confirmação de senha é obrigatória",
                   validate: (value) => value === senha || "As senhas não coincidem",

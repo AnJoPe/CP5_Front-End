@@ -59,6 +59,7 @@ export default function Login() {
             <input
               id='email'
               type='email'
+              autoComplete='username'
               placeholder='seuemail@exemplo.com.br'
               {...register("email", {
                 required: "O email é obrigatório!",
@@ -78,6 +79,7 @@ export default function Login() {
             <input
               id='senha'
               type='password'
+              autoComplete='current-password'
               {...register("senha", {
                 required: "A senha é obrigatória!",
               })}

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import type { CardProps } from "../../Types/CardTipos";
 
-export default function Card({ src, nome, tempo, link }: CardProps) {
+export default function Card({ link, nome, tempo, src }: CardProps) {
   return (
     <Link to={`/receita/${link}`} className='relative aspect-3/4 lg:aspect-2/3 rounded-xl shadow-xl'>
       <div className='absolute bottom-0 left-0 right-0 top-1/3 bg-linear-to-t from-black rounded-xl z-10' />
